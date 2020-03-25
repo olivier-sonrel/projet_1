@@ -31,7 +31,7 @@ body{
 }
 
 .logiciel{
-  width: 100px;
+  width: 200px;
 }
 
 .logo{
@@ -49,6 +49,14 @@ body{
 
 .blue{
   color:  #11a9f3;
+}
+
+.logiciel{
+  width: 270px;
+}
+
+.star{
+  float: right;
 }
 
 h1{
