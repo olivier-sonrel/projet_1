@@ -2,9 +2,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-.bordur{
-  border-color: red;
-  border-style: solid;
+.fond{
   background-color: #f8f8f8;
   float: left;
 }
@@ -19,10 +17,19 @@ body{
 
 #sideright{
   display: inline-block;
-
   vertical-align: top;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+#sideright > div > p {
+  margin-top: 3px;
+}
+
+#sideright > div > h3 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 17px;
 }
 
 .logiciel{
@@ -37,9 +44,27 @@ body{
   border: 10px solid white;
   margin: 20px 5px 5px 40px;
 }
-.fondblue{
+.fondbluer{
   color: white;
   background-color: #11a9f3;
+  border-radius: 50%;
+  padding: 5px 5px 5px 5px;
+}
+
+.fondbluel1{
+  color: #11a9f3;
+  background-color: white;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding: 5px 5px 5px 5px;
+}
+
+.fondbluel2{
+  color: white;
+  background-color: #11a9f3;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  padding: 5px 5px 5px 5px;
 }
 
 .blue{
@@ -55,12 +80,13 @@ body{
 }
 
 .creative{
-  padding-bottom: 40px;
+  padding-top: 0px;
+  height: 100px
 }
 
 h1{
-  font-size: 30px;
-  padding-top: 40px;
+  font-size: 50px;
+  margin-bottom: 0px;
 }
 
 h2{
